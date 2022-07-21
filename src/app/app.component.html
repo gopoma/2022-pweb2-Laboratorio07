@@ -32,3 +32,10 @@
     <app-user [nameUser]="user"></app-user>
   </li>
 </ul>
+
+<h3>Desde app.component</h3>
+<ul>
+  <li *ngFor="let user of users">
+    {{ user }} <button (click)="deleteUser(user)">Delete</button>
+  </li>
+</ul>

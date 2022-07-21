@@ -7,13 +7,8 @@
   <p><b>Name: </b>{{ name }}</p>
   <p><b>Email: </b>{{ email }}</p>
 
-  <div *ngIf="showHobbies()" class="component2">
-    <h3>Hobbies:</h3>
-    <ul>
-      <li *ngFor="let hobby of hobbies">{{ hobby }}</li>
-    </ul>
-  </div>
-  <div *ngIf="displayHobbies" class="component2">
+  <button (click)="toggleHobbies()" class="btn">Show Hobbies</button>
+  <div *ngIf="showHobbies" class="component2">
     <h3>Hobbies:</h3>
     <ul>
       <li *ngFor="let hobby of hobbies">{{ hobby }}</li>

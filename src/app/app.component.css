@@ -22,3 +22,13 @@
   color: #FFF;
   background-color: #555;
 }
+
+.btn {
+  display: block;
+  margin: 3px;
+  padding: 0.45rem;
+  color: #FFF;
+  font-weight: bold;
+  background-color: brown;
+  cursor: pointer;
+}

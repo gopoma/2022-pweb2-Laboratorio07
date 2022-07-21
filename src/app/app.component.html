@@ -26,3 +26,9 @@
 <app-hello-world>Aquí</app-hello-world>
 <app-hello-world>Aquí</app-hello-world>
 <app-hello-world>Aquí</app-hello-world>
+
+<ul>
+  <li *ngFor="let user of users">
+    <app-user [nameUser]="user"></app-user>
+  </li>
+</ul>

@@ -13,6 +13,9 @@ export class AppComponent {
   hobbies: string[];
   showHobbies: boolean;
 
+  users: string[] = ["Gustavo", "Raúl", "Edgar", "Marcos", "Anthony"];
+  activated: boolean = false;
+
   constructor() {
     console.log("Constructor working...");
     this.name = "Gustavo ORDOÑO POMA";

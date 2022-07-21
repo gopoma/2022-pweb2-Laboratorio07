@@ -10,11 +10,14 @@ import {
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  @Input() nameUser: string | undefined;
+  @Input() nameUser: string = "Anónimo";
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  sayHello(nameUser: string) {
+    alert(`Hola ${nameUser}`);
+  }
 }

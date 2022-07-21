@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.black {
+  padding: 1.2rem;
+  color: #FFF;
+  background-color: #000;
+}
+
+.ash {
+  padding: 1.2rem;
+  background-color: #EEE;
+}

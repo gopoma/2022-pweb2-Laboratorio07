@@ -44,4 +44,13 @@ export class AppComponent {
       }
     }
   }
+
+  addUser(newUser: any) {
+    if(!newUser.value.trim()) {return false;}
+
+    this.users.push(newUser.value);
+    newUser.value = "";
+    newUser.focus();
+    return false;
+  }
 }
